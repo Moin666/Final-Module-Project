@@ -1,0 +1,149 @@
+*{
+    transition-delay: 0.1s;
+    font-family: Futura,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.font-md{
+    font-size: 20px;
+}
+.font-lg{
+    font-size: 60px;
+}
+
+
+.font-el{
+    font-size: 80px;
+}
+.nav-search{
+        border-style: none;
+        outline: none;
+        background-image: url("images/serachbar/search_2.png"); 
+        background-position: center right;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px;
+        
+
+}
+.nav-search:focus{
+    width: 200px;
+    height: 38px;
+}
+.caro-bg{
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+.cardSize{
+    width: 90%;
+}
+.zoom:hover{
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
+}
+
+.background_img{
+    background-image: url("images/landscapeMode.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    width: 100%;
+    height: 75vh;
+}
+.background_suggestion{
+    width: 21%;
+    height: 20vh;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+.btn{
+        background-color: #069;
+        color: white;
+        border-radius: 10px;
+        
+}
+
+.coversation_start{
+    background-image: url('images/watchCard/Coversation/1.jpg');
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.coversation_start:hover{
+    background-image: url('images/watchCard/Coversation/2.jpg');
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.whyBuy{
+    
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    height: 10vh;
+    color: white;
+    font-size: 32px;      
+    text-align: center;
+    
+    
+}
+
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.apm{
+    width: 100%;
+    height: 50vh;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  
+}
+.btn_ghost{
+
+ 
+    background-color: #047f6a;
+    border: 1px solid #047f6a;
+    color: white;
+}
+.btn_ghost:hover{
+    background-color: white;
+    border: 1px solid #047f6a;
+    color: #047f6a;
+ 
+
+
+}
+
+
+.about{
+    background-image: url('images/watchCard/About/about.jpg');
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .background_suggestion{
+        width: 100%;
+        text-align: center;
+        vertical-align: text-top;
+    }
+  }
+
+
+  
